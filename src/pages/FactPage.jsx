@@ -31,7 +31,7 @@ export default function FactPage() {
     return (
         <>
             <div className="m-4 mx-auto" style={{ maxWidth: "600px" }}>
-                <h3>😼🦇 Random cat fact</h3>
+                <h3>😼🩷 Random cat fact</h3>
                 <p>{ fact || "Loading..." }</p>
                 <div className="d-flex gap-2 align-items-center">
                     <button className="btn btn-primary" onClick={loadCat}>New fact</button>
